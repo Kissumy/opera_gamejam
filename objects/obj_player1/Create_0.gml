@@ -9,3 +9,6 @@ xfin=96;
 
 //variable para la velocidad
 v = 4;
+
+//variable seleccion objetivo
+i=0;
