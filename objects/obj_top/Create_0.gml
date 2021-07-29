@@ -9,6 +9,8 @@ audio_play_sound(snd_top,10,0);
 
 //variable para la velocidad
 v = 4;
+aux=true;
+vida = 4;
 if ystart>416
 {
 	v*=-1;

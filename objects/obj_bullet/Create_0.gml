@@ -12,11 +12,6 @@ v = 4;
 if ystart>416
 {
 	v*=-1;
-	yfin=ystart-224;
-}
-else
-{
-	yfin=ystart+224;
 }
 direction = 270;
 speed = v

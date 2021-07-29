@@ -9,6 +9,7 @@ audio_play_sound(snd_kamikaze,10,0);
 
 //variable para la velocidad
 v = 4;
+vida = 4;
 if ystart>416
 {
 	v*=-1;

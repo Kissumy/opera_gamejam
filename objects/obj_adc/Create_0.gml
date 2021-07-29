@@ -9,14 +9,16 @@ audio_play_sound(snd_adc,10,0);
 
 //variable para la velocidad
 v = 4;
+aux=true;
+vida = 8;
 if ystart>416
 {
 	v*=-1;
-	yfin=ystart-224;
+	yfin=ystart-192;
 }
 else
 {
-	yfin=ystart+224;
+	yfin=ystart+192;
 }
 direction = 270;
 speed = v

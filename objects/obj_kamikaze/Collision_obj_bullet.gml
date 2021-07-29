@@ -1,0 +1,9 @@
+vida--;
+with(other)
+{
+	instance_destroy();
+}
+if(!vida)
+{
+	instance_destroy();
+}
