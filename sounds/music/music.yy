@@ -10,7 +10,7 @@
   "sampleRate": 44100,
   "bitDepth": 1,
   "bitRate": 128,
-  "duration": 12.6955,
+  "duration": 8.672653,
   "volume": 1.0,
   "preload": false,
   "parent": {
