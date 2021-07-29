@@ -5,7 +5,7 @@ sprite_index = spr_adc;
 image_speed = 0;
 image_index = 0;
 
-
+audio_play_sound(snd_adc,10,0);
 
 //variable para la velocidad
 v = 4;
