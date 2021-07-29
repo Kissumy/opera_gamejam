@@ -1,7 +1,7 @@
 /// @description movimiento y sprite
 
 //movimiento del pj
-if keyboard_check(ord("D")) && place_free(x+1,y) && x==xfin
+if keyboard_check() && place_free(x+1,y) && x==xfin
 {
 	direction = 0;
 	speed = v;

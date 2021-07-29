@@ -1,7 +1,7 @@
 /// @description configurar jugador
 
 //iniciar sprite
-sprite_index = spr_player1;
+sprite_index = spr_player2;
 image_speed = 0;
 image_index = 0;
 
