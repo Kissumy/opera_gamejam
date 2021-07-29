@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"music","path":"sounds/music/music.yy",},"order":13,},
+    {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},"order":13,},
     {"id":{"name":"snd_top","path":"sounds/snd_top/snd_top.yy",},"order":2,},
     {"id":{"name":"basehit","path":"sounds/basehit/basehit.yy",},"order":7,},
     {"id":{"name":"spr_kamikaze","path":"sprites/spr_kamikaze/spr_kamikaze.yy",},"order":3,},
