@@ -9,6 +9,7 @@ if x==xfin
 		direction = 0;
 		speed = v;
 		xfin = x+192;
+		
 	}
 	if keyboard_check(ord("A")) && x>xstart
 	{
