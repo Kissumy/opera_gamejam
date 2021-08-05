@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8d3aae19-e687-4ff5-ad78-6938f5d6eda1","path":"sprites/UFOAdc/UFOAdc.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8d3aae19-e687-4ff5-ad78-6938f5d6eda1","path":"sprites/UFOAdc/UFOAdc.yy",},"LayerId":{"name":"cdeb4ba5-b0c1-4a08-bd12-a565745b0946","path":"sprites/UFOAdc/UFOAdc.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"UFOAdc","path":"sprites/UFOAdc/UFOAdc.yy",},"resourceVersion":"1.0","name":"8d3aae19-e687-4ff5-ad78-6938f5d6eda1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dfe1e641-d7eb-4aee-9029-0720035cbe23","path":"sprites/UFOAdc/UFOAdc.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dfe1e641-d7eb-4aee-9029-0720035cbe23","path":"sprites/UFOAdc/UFOAdc.yy",},"LayerId":{"name":"ce68ba40-79cc-47b3-85f8-0900fee6de36","path":"sprites/UFOAdc/UFOAdc.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"UFOAdc","path":"sprites/UFOAdc/UFOAdc.yy",},"resourceVersion":"1.0","name":"dfe1e641-d7eb-4aee-9029-0720035cbe23","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"UFOAdc","path":"sprites/UFOAdc/UFOAdc.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"742b1b73-71bf-45c5-b7b9-203cf243650b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8d3aae19-e687-4ff5-ad78-6938f5d6eda1","path":"sprites/UFOAdc/UFOAdc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"555cf6cc-246a-4d1a-bfda-2d9107d4af6b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dfe1e641-d7eb-4aee-9029-0720035cbe23","path":"sprites/UFOAdc/UFOAdc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cdeb4ba5-b0c1-4a08-bd12-a565745b0946","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce68ba40-79cc-47b3-85f8-0900fee6de36","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

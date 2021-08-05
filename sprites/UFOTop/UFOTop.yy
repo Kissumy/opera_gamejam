@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ce8854a6-3986-4e7f-baf1-87427607b27b","path":"sprites/UFOTop/UFOTop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ce8854a6-3986-4e7f-baf1-87427607b27b","path":"sprites/UFOTop/UFOTop.yy",},"LayerId":{"name":"35dfe0c0-7d52-4adb-bba8-2149ae090257","path":"sprites/UFOTop/UFOTop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"UFOTop","path":"sprites/UFOTop/UFOTop.yy",},"resourceVersion":"1.0","name":"ce8854a6-3986-4e7f-baf1-87427607b27b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fade4edb-c564-4cfd-92ee-ab7238c2ae3b","path":"sprites/UFOTop/UFOTop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fade4edb-c564-4cfd-92ee-ab7238c2ae3b","path":"sprites/UFOTop/UFOTop.yy",},"LayerId":{"name":"4334a32b-83f5-457c-882e-365569b5339a","path":"sprites/UFOTop/UFOTop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"UFOTop","path":"sprites/UFOTop/UFOTop.yy",},"resourceVersion":"1.0","name":"fade4edb-c564-4cfd-92ee-ab7238c2ae3b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"UFOTop","path":"sprites/UFOTop/UFOTop.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b627f894-f6a5-4f09-8f33-5c16beb9a94a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ce8854a6-3986-4e7f-baf1-87427607b27b","path":"sprites/UFOTop/UFOTop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7eadf0c7-3f3a-4242-937e-53b200a24931","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fade4edb-c564-4cfd-92ee-ab7238c2ae3b","path":"sprites/UFOTop/UFOTop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"35dfe0c0-7d52-4adb-bba8-2149ae090257","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4334a32b-83f5-457c-882e-365569b5339a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
