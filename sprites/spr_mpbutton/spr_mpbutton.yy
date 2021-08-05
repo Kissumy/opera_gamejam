@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"14edcc5d-acb0-4d59-ac0f-043f88520b1a","path":"sprites/SoundButton/SoundButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"14edcc5d-acb0-4d59-ac0f-043f88520b1a","path":"sprites/SoundButton/SoundButton.yy",},"LayerId":{"name":"927224da-e788-420b-996a-f5df50d7a4c4","path":"sprites/SoundButton/SoundButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"SoundButton","path":"sprites/SoundButton/SoundButton.yy",},"resourceVersion":"1.0","name":"14edcc5d-acb0-4d59-ac0f-043f88520b1a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a02a4328-a446-402f-a544-665e27c4bf37","path":"sprites/spr_mpbutton/spr_mpbutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a02a4328-a446-402f-a544-665e27c4bf37","path":"sprites/spr_mpbutton/spr_mpbutton.yy",},"LayerId":{"name":"b98e404f-a04c-4667-91a4-30c69966b0c5","path":"sprites/spr_mpbutton/spr_mpbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_mpbutton","path":"sprites/spr_mpbutton/spr_mpbutton.yy",},"resourceVersion":"1.0","name":"a02a4328-a446-402f-a544-665e27c4bf37","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"SoundButton","path":"sprites/SoundButton/SoundButton.yy",},
+    "spriteId": {"name":"spr_mpbutton","path":"sprites/spr_mpbutton/spr_mpbutton.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"30194d1a-9f36-4a97-aa24-50d07b9dea0d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14edcc5d-acb0-4d59-ac0f-043f88520b1a","path":"sprites/SoundButton/SoundButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"95eafff8-ce75-4570-87a0-f471a9686099","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a02a4328-a446-402f-a544-665e27c4bf37","path":"sprites/spr_mpbutton/spr_mpbutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"SoundButton","path":"sprites/SoundButton/SoundButton.yy",},
+    "parent": {"name":"spr_mpbutton","path":"sprites/spr_mpbutton/spr_mpbutton.yy",},
     "resourceVersion": "1.3",
-    "name": "SoundButton",
+    "name": "spr_mpbutton",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"927224da-e788-420b-996a-f5df50d7a4c4","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b98e404f-a04c-4667-91a4-30c69966b0c5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SoundButton",
+  "name": "spr_mpbutton",
   "tags": [],
   "resourceType": "GMSprite",
 }
