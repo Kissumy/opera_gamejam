@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 94,
-  "bbox_top": 2,
-  "bbox_bottom": 61,
+  "bbox_left": 8,
+  "bbox_right": 87,
+  "bbox_top": 3,
+  "bbox_bottom": 56,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e75d96b5-ec9e-4126-9db4-82019902b900","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e75d96b5-ec9e-4126-9db4-82019902b900","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"LayerId":{"name":"0df2b7e5-4a09-446a-b090-7d451916372a","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"UFOAdcShield","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"resourceVersion":"1.0","name":"e75d96b5-ec9e-4126-9db4-82019902b900","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4ccbfb31-552b-458a-84c8-a60a4b063a89","path":"sprites/UFOKami/UFOKami.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4ccbfb31-552b-458a-84c8-a60a4b063a89","path":"sprites/UFOKami/UFOKami.yy",},"LayerId":{"name":"0a35618a-5669-4ddb-bb58-4d850b0b237a","path":"sprites/UFOKami/UFOKami.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"UFOKami","path":"sprites/UFOKami/UFOKami.yy",},"resourceVersion":"1.0","name":"4ccbfb31-552b-458a-84c8-a60a4b063a89","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"UFOAdcShield","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},
+    "spriteId": {"name":"UFOKami","path":"sprites/UFOKami/UFOKami.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5bec5f2f-b0a5-494b-8210-a432cd1cab96","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e75d96b5-ec9e-4126-9db4-82019902b900","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c66d41bc-6f8b-4664-935e-1df98e2087d0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ccbfb31-552b-458a-84c8-a60a4b063a89","path":"sprites/UFOKami/UFOKami.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"UFOAdcShield","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},
+    "parent": {"name":"UFOKami","path":"sprites/UFOKami/UFOKami.yy",},
     "resourceVersion": "1.3",
-    "name": "UFOAdcShield",
+    "name": "UFOKami",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0df2b7e5-4a09-446a-b090-7d451916372a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0a35618a-5669-4ddb-bb58-4d850b0b237a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "UFOAdcShield",
+  "name": "UFOKami",
   "tags": [],
   "resourceType": "GMSprite",
 }
