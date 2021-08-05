@@ -7,7 +7,9 @@
     {"id":{"name":"spr_kamikaze","path":"sprites/spr_kamikaze/spr_kamikaze.yy",},"order":3,},
     {"id":{"name":"obj_top","path":"objects/obj_top/obj_top.yy",},"order":4,},
     {"id":{"name":"spr_top","path":"sprites/spr_top/spr_top.yy",},"order":4,},
+    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":1,},
     {"id":{"name":"alienrangehit","path":"sounds/alienrangehit/alienrangehit.yy",},"order":5,},
+    {"id":{"name":"obj_spbutton","path":"objects/obj_spbutton/obj_spbutton.yy",},"order":9,},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},"order":0,},
     {"id":{"name":"alienadchit","path":"sounds/alienadchit/alienadchit.yy",},"order":3,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":8,},
@@ -25,6 +27,8 @@
     {"id":{"name":"obj_muro","path":"objects/obj_muro/obj_muro.yy",},"order":5,},
     {"id":{"name":"snd_kamikaze","path":"sounds/snd_kamikaze/snd_kamikaze.yy",},"order":0,},
     {"id":{"name":"obj_adc","path":"objects/obj_adc/obj_adc.yy",},"order":3,},
+    {"id":{"name":"obj_mpbutton","path":"objects/obj_mpbutton/obj_mpbutton.yy",},"order":10,},
+    {"id":{"name":"obj_soundButton","path":"objects/obj_soundButton/obj_soundButton.yy",},"order":11,},
     {"id":{"name":"spr_soundButton","path":"sprites/spr_soundButton/spr_soundButton.yy",},"order":12,},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":1,},
     {"id":{"name":"spr_mpbutton","path":"sprites/spr_mpbutton/spr_mpbutton.yy",},"order":10,},
@@ -52,6 +56,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_pvp","path":"rooms/rm_pvp/rm_pvp.yy",},},
   ],
   "Folders": [

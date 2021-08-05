@@ -1,5 +1,5 @@
 /// @description 
-audio_play_sound(basehit,10,0);
+if (global.music) audio_play_sound(basehit,10,0);
 vida--;
 with(other)
 {

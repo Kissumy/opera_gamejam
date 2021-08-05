@@ -15,12 +15,12 @@ if ystart>416
 {
 	v*=-1;
 	yfin=ystart-192;
-	audio_play_sound(humanadchit,10,0);
+	if (global.music) audio_play_sound(humanadchit,10,0);
 }
 else
 {
 	yfin=ystart+192;
-	audio_play_sound(snd_adc,10,0);
+	if (global.music) audio_play_sound(snd_adc,10,0);
 }
 direction = 270;
 speed = v
