@@ -8,3 +8,7 @@ if(!vida)
 {
 	instance_destroy();
 }
+else if vida==3
+{
+	image_index = 1;
+}

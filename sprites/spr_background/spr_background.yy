@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 94,
-  "bbox_top": 2,
-  "bbox_bottom": 61,
+  "bbox_left": 0,
+  "bbox_right": 991,
+  "bbox_top": 0,
+  "bbox_bottom": 831,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 96,
-  "height": 64,
+  "width": 992,
+  "height": 832,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6f0ed32f-17af-4675-baf9-6639f65e40e7","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f0ed32f-17af-4675-baf9-6639f65e40e7","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"LayerId":{"name":"82583212-60a0-429b-a2df-5bc4d4c915ad","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"UFOAdcShield","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"resourceVersion":"1.0","name":"6f0ed32f-17af-4675-baf9-6639f65e40e7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c4fd94fa-2539-4bce-ae8c-f039ae80a2c3","path":"sprites/spr_background/spr_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c4fd94fa-2539-4bce-ae8c-f039ae80a2c3","path":"sprites/spr_background/spr_background.yy",},"LayerId":{"name":"83b8b047-22ba-4f36-bb54-edfdad2a4ebb","path":"sprites/spr_background/spr_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"resourceVersion":"1.0","name":"c4fd94fa-2539-4bce-ae8c-f039ae80a2c3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"UFOAdcShield","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},
+    "spriteId": {"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3f4c0ab6-9b8f-474c-be06-3ad14ef78dd8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f0ed32f-17af-4675-baf9-6639f65e40e7","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0af108ed-7318-4564-88d2-61bfd3d95212","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c4fd94fa-2539-4bce-ae8c-f039ae80a2c3","path":"sprites/spr_background/spr_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"UFOAdcShield","path":"sprites/UFOAdcShield/UFOAdcShield.yy",},
+    "parent": {"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},
     "resourceVersion": "1.3",
-    "name": "UFOAdcShield",
+    "name": "spr_background",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"82583212-60a0-429b-a2df-5bc4d4c915ad","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"83b8b047-22ba-4f36-bb54-edfdad2a4ebb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "UFOAdcShield",
+  "name": "spr_background",
   "tags": [],
   "resourceType": "GMSprite",
 }
