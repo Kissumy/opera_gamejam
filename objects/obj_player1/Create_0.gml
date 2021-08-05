@@ -15,4 +15,3 @@ i=0;
 
 cd=false;
 scd=false;
-audio_play_sound(snd_music,5,true);

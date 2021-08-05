@@ -10,4 +10,8 @@ else
 {
 	image_index-=1;
 	global.music=true;
+	if !(room_get_name(room)=="rm_main")
+	{
+		audio_play_sound(snd_music,5,true);
+	}
 }

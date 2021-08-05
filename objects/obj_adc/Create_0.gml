@@ -10,7 +10,7 @@ image_index = 0;
 //variable para la velocidad
 v = 4;
 aux=true;
-vida = 8;
+vida = 9;
 if ystart>416
 {
 	v*=-1;
