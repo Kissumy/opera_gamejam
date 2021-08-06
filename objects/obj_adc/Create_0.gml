@@ -16,11 +16,13 @@ if ystart>416
 	v*=-1;
 	yfin=ystart-192;
 	if (global.music) audio_play_sound(humanadchit,10,0);
+	pos = obj_player2.pos;
 }
 else
 {
 	yfin=ystart+192;
 	if (global.music) audio_play_sound(snd_adc,10,0);
+	pos = obj_player1.pos;
 }
 direction = 270;
 speed = v

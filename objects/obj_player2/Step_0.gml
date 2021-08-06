@@ -9,19 +9,26 @@ if x==xfin
 		direction = 0;
 		speed = v;
 		xfin = x+192;
+		pos+=1;
 	}
 	if keyboard_check(vk_left) && x>xstart
 	{
 		direction = 0;
 		speed = -v;
 		xfin = x-192;
+		pos+=1;
 	}
 	if keyboard_check(vk_down) && !cd
 	{
-		instance_create_layer(x,y-64,"Instances",global.municion2[0]);
-		global.municion2[0]=choose(obj_adc,obj_kamikaze,obj_top);
-		cd=true;
-		alarm[0]=room_speed*1;
+		if !(global.municion2[0]==obj_adc && naves[pos][1]==1)||(global.municion2[0]==obj_top && naves[pos][0]==1)
+		{
+			if global.municion2[0]==obj_adc naves[pos][1]=1;
+			else if global.municion2[0]==obj_top naves[pos][0]=1;
+			instance_create_layer(x,y-64,"Instances",global.municion2[0]);
+			global.municion2[0]=choose(obj_adc,obj_kamikaze,obj_top);
+			cd=true;
+			alarm[0]=room_speed*1;
+		}
 	}
 	if keyboard_check(vk_up) && !scd
 	{
