@@ -12,6 +12,11 @@ with(other)
 	{
 		escudo--;
 	}
+	if vida==0
+	{
+		audio_stop_all();
+		room_goto(rm_main);
+	}
 	
 }
 with(obj_base2)

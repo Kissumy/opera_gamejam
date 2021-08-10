@@ -5,7 +5,11 @@ with(other)
 	{
 		vida--;
 	}
-	else
+	else if escudo ==1
+	{
+		escudo-=1;
+	}
+	else 
 	{
 		escudo-=2;
 	}
