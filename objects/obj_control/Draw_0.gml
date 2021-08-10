@@ -31,3 +31,6 @@ if global.municion2[1] == obj_adc a= spr_adc;
 else if global.municion2[1] == obj_top a= spr_top;
 else a= spr_kamikaze;
 draw_sprite_stretched(a, 2, 864,352,48,32);
+
+draw_sprite_stretched(spr_shield, obj_base1.escudo, obj_base1.x,obj_base1.y,64,64);
+draw_sprite_stretched(spr_shield, obj_base2.escudo, obj_base2.x,obj_base2.y,64,64);
