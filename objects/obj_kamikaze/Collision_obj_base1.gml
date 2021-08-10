@@ -13,6 +13,11 @@ with(other)
 	{
 		escudo-=2;
 	}
+	if vida==0
+	{
+		audio_stop_all();
+		room_goto(rm_main);
+	}
 }
 if (global.music) audio_play_sound(kamiexplode,10,0);
 instance_destroy();

@@ -10,6 +10,6 @@ else
 
 instance_create_layer(x+32,yaux,"Instances",obj_bullet);
 
-alarm[0] = room_speed*1
+alarm[0] = room_speed*global.modi;
 
 

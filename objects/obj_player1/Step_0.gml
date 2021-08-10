@@ -28,7 +28,7 @@ if x==xfin
 			instance_create_layer(x,y+64,"Instances",global.municion1[0]);
 			global.municion1[0]=choose(obj_adc,obj_kamikaze,obj_top);
 			cd=true;
-			alarm[0]=room_speed*1;
+			alarm[0]=room_speed/global.modi;
 		}
 	}
 	if keyboard_check(ord("W")) && !scd
@@ -37,7 +37,7 @@ if x==xfin
 		global.municion1[0]=global.municion1[1];
 		global.municion1[1]=aux;
 		scd=true;
-		alarm[1]=room_speed*1;
+		alarm[1]=room_speed/global.modi;
 	}
 }
 

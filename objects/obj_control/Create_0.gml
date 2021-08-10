@@ -9,3 +9,5 @@ for (i=0;i<2;i++)
 }
 
 if (global.music) audio_play_sound(snd_music,5,true);
+alarm[0]=room_speed*1;
+alarm[1]=room_speed*30;

@@ -8,7 +8,7 @@ image_index = 0;
 xfin=256;
 
 //variable para la velocidad
-v = 4;
+v = 6;
 
 //variable mucniciones
 i = 0;

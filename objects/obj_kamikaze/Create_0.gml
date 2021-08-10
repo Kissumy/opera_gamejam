@@ -8,7 +8,7 @@ image_index = 0;
 
 
 //variable para la velocidad
-v = 4;
+v = 4*global.modi;
 vida = 4;
 if ystart>416
 {

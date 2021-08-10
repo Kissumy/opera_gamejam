@@ -17,6 +17,9 @@ else if global.municion1[1] == obj_top a= spr_top;
 else a= spr_kamikaze;
 draw_sprite_stretched(a, 2, 32,352,48,32);
 
+draw_text(32,384, "points:");
+draw_text(32,416, string(global.point));
+
 
 
 draw_text(864,224, "PLAYER 2");

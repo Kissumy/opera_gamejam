@@ -7,6 +7,6 @@ if y==yfin
 }
 if speed ==0 and aux
 {
-	alarm[0] = room_speed*1
+	alarm[0] = room_speed*global.modi;
 	aux=false;
 }

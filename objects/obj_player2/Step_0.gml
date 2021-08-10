@@ -29,7 +29,7 @@ if global.pvp
 				instance_create_layer(x,y-64,"Instances",global.municion2[0]);
 				global.municion2[0]=choose(obj_adc,obj_kamikaze,obj_top);
 				cd=true;
-				alarm[0]=room_speed*1;
+				alarm[0]=room_speed/global.modi;
 			}
 		}
 		if keyboard_check(vk_up) && !scd
@@ -38,7 +38,7 @@ if global.pvp
 			global.municion2[0]=global.municion2[1];
 			global.municion2[1]=aux;
 			scd=true;
-			alarm[1]=room_speed*1;
+			alarm[1]=room_speed/global.modi;
 		}
 	}
 }
@@ -66,7 +66,7 @@ else
 			instance_create_layer(x,y-64,"Instances",global.municion2[0]);
 			global.municion2[0]=choose(obj_adc,obj_kamikaze,obj_top);
 			cd=true;
-			alarm[0]=room_speed*1;
+			alarm[0]=room_speed/global.modi;
 		}
 		c1=0;
 		c2=0;
