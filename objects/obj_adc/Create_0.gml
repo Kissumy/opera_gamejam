@@ -17,6 +17,7 @@ if ystart>416
 	yfin=ystart-192;
 	if (global.music) audio_play_sound(humanadchit,10,0);
 	pos = obj_player2.pos;
+	image_index = 2;
 }
 else
 {

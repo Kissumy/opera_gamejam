@@ -102,6 +102,7 @@
     {"id":{"name":"EaseOutSine","path":"scripts/EaseOutSine/EaseOutSine.yy",},"order":30,},
     {"id":{"name":"__x","path":"scripts/__x/__x.yy",},"order":9,},
     {"id":{"name":"TGMS_TweensExecute","path":"scripts/TGMS_TweensExecute/TGMS_TweensExecute.yy",},"order":10,},
+    {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":16,},
     {"id":{"name":"TweenIsActive","path":"scripts/TweenIsActive/TweenIsActive.yy",},"order":2,},
     {"id":{"name":"direction__","path":"scripts/direction__/direction__.yy",},"order":11,},
     {"id":{"name":"TGMS_Final","path":"scripts/TGMS_Final/TGMS_Final.yy",},"order":5,},

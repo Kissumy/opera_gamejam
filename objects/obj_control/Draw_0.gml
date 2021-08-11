@@ -9,13 +9,13 @@ draw_text(32,256, "NEXT:");
 if global.municion1[0] == obj_adc a= spr_adc;
 else if global.municion1[0] == obj_top a= spr_top;
 else a= spr_kamikaze;
-draw_sprite_stretched(a, 2, 32,288,48,32);
+draw_sprite_stretched(a, 0, 32,288,48,32);
 
 draw_text(32,320, "SAVE:");
 if global.municion1[1] == obj_adc a= spr_adc;
 else if global.municion1[1] == obj_top a= spr_top;
 else a= spr_kamikaze;
-draw_sprite_stretched(a, 2, 32,352,48,32);
+draw_sprite_stretched(a, 0, 32,352,48,32);
 
 draw_text(32,384, "points:");
 draw_text(32,416, string(global.point));

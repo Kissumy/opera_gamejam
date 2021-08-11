@@ -12,6 +12,7 @@ v = 4*global.modi;
 if ystart>416
 {
 	v*=-1;
+	image_index = 1;
 }
 direction = 270;
 speed = v

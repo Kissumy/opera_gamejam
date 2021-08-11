@@ -17,3 +17,10 @@ if(!vida)
 	}
 	instance_destroy();
 }
+if ystart>416
+{	
+	if vida==2
+	{
+		image_index = 2;
+	}
+}

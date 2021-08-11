@@ -15,6 +15,7 @@ if ystart>416
 	v*=-1;
 	yfin=ystart-544;
 	if (global.music) audio_play_sound(humankamihit,10,0);
+	image_index = 1;
 }
 else
 {
