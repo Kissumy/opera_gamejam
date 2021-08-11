@@ -13,7 +13,7 @@ function Ease(argument0, argument1, argument2, argument3) {
 	        var _start = x;
 	        var _dest  = mouse_x;
 	        var _amount = 0.25;
-	        var _ease = EaseInOutQuad;
+	        var _ease = EaseInOutQuart;
         
 	        x = Ease(_start, _dest, _amount, _ease);
 	*/

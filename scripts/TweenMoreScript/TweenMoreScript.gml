@@ -25,7 +25,7 @@ function TweenMoreScript() {
 			ts = TweenMoreScript(ts, id, true, 2.0, ShowMessage, "Goodbye, World!");
 		
 			// Fire a tween after showing second message
-			t = TweenMore(ts, id, EaseInOutQuad, 0, true, 0.0, 1.0, "image_scale", 1.0, 0.0); 
+			t = TweenMore(ts, id, EaseInOutQuart, 0, true, 0.0, 1.0, "image_scale", 1.0, 0.0); 
 	*/
 
 	var _t = argument[0];

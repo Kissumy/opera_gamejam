@@ -8,15 +8,14 @@ image_index = 0;
 
 
 //variable para la velocidad
-v = 4*global.modi;
 aux=true;
 vida = 9;
 if ystart>416
 {
-	v*=-1;
 	yfin=ystart-192;
 	if (global.music) audio_play_sound(humanadchit,10,0);
 	pos = obj_player2.pos;
+	image_index = 2;
 }
 else
 {
@@ -24,5 +23,5 @@ else
 	if (global.music) audio_play_sound(snd_adc,10,0);
 	pos = obj_player1.pos;
 }
+TweenEasyMove(x,y,x,yfin,0,room_speed/global.modi, EaseInOutQuart);
 direction = 270;
-speed = v
