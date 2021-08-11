@@ -5,7 +5,7 @@ function TGMS_TweenDefine() {
 	/// @description Defines a tween previously created with TweenCreate()
 
 	/// @param tween	tween id of previously created tween
-	/// @param ease		easing script index id (e.g. EaseInQuad, EaseLinear)
+	/// @param ease		easing script index id (e.g. EaseInQuart, EaseLinear)
 	/// @param mode		tween mode (0=ONCE, 1=BOUNCE, 2=PATROL, 3=LOOP, 4=REPEAT)
 	/// @param delta	whether or not to use delta(seconds) timing -- false will use step timing
 	/// @param delay	amount of time to delay tween before playing

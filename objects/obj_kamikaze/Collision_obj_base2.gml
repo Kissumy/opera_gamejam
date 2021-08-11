@@ -14,6 +14,6 @@ with(other)
 		escudo-=2;
 	}
 }
-global.point+=10;
+if !global.pvp global.point+=10;
 if (global.music) audio_play_sound(kamiexplode,10,0);
 instance_destroy();

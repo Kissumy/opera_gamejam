@@ -3,7 +3,7 @@ function TweenPlay() {
 
 	/// TweenPlay(tween,[ease,mode,delta,delay,dur,prop,start,dest,...])
 	/// @param tween	tween[s] id of previously created tween
-	/// @param [ease	easing script index id (e.g. EaseInQuad, EaseLinear)
+	/// @param [ease	easing script index id (e.g. EaseInQuart, EaseLinear)
 	/// @param mode		tween mode (0=ONCE, 1=BOUNCE, 2=PATROL, 3=LOOP, 4=REPEAT)
 	/// @param delta	whether or not to use delta(seconds) timing -- false will use step timing
 	/// @param delay	amount of time to delay tween before playing
@@ -23,7 +23,7 @@ function TweenPlay() {
 			tween1 = TweenCreate(id);
 			tween2 = TweenCreate(id, EaseLinear, TWEEN_MODE_ONCE, true, 0, 1, "x", 0, 100);
 		
-			TweenPlay(tween1, EaseInQuad, 0, true, 0, 1.0, "a", 0, 100);
+			TweenPlay(tween1, EaseInQuart, 0, true, 0, 1.0, "a", 0, 100);
 			TweenPlay(tween2);
 	*/
 

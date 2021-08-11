@@ -6,7 +6,15 @@ with(other)
 {
 	if escudo ==0
 	{
-		vida--;
+		if global.pvp
+		{
+			vida--;
+			if vida==0
+			{
+				audio_stop_all();
+				room_goto(rm_main);
+			}
+		}
 	}
 	else 
 	{

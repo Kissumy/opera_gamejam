@@ -3,7 +3,7 @@ function TweenFireFrom() {
 
 	/// TweenFireFrom(target,ease,mode,delta,delay,dur,prop,from,[...])
 	/// @param target	instance to associate with tween (id or object index)
-	/// @param ease		easing script index id (e.g. EaseInQuad, EaseLinear)
+	/// @param ease		easing script index id (e.g. EaseInQuart, EaseLinear)
 	/// @param mode		tween mode (0=ONCE, 1=BOUNCE, 2=PATROL, 3=LOOP, 4=REPEAT)
 	/// @param delta	whether or not to use delta(seconds) timing -- false will use step timing
 	/// @param delay	amount of time to delay tween before playing
@@ -21,7 +21,7 @@ function TweenFireFrom() {
     
 	    Examples:
 	        // Ease "x" value from (mouse_x), over 1 second
-	        TweenFireFrom(id, EaseInQuad, TWEEN_MODE_ONCE, true, 0.0, 1.0, "x", mouse_x);
+	        TweenFireFrom(id, EaseInQuart, TWEEN_MODE_ONCE, true, 0.0, 1.0, "x", mouse_x);
         
 	        // Ease "x" and "y" values from (mouse_x, mouse_y) over 60 steps with a 30 step delay.
 	        // Tween will play back and forth, repeatedly.

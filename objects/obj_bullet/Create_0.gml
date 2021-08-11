@@ -8,11 +8,20 @@ image_index = 0;
 
 
 //variable para la velocidad
-v = 4*global.modi;
-if ystart>416
+
+if ystart>540
 {
-	v*=-1;
+	yfin=ystart-544;
 	image_index = 1;
 }
+else if ystart>416
+{
+	yfin=ystart-544;
+	image_index = 2;
+}
+else
+{
+	yfin=ystart+544;
+}
+TweenEasyMove(x,y,x,yfin,0,2*room_speed/global.modi, EaseLinear);
 direction = 270;
-speed = v

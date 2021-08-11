@@ -6,17 +6,15 @@ if x==xfin
 	speed = 0;
 		if keyboard_check(ord("D")) && x<xstart+384
 	{
-		direction = 0;
-		speed = v;
 		xfin = x+192;
+		TweenEasyMove(x,y,xfin,y,0,room_speed/(global.modi*2), EaseInOutQuart);
 		pos+=1;
 		
 	}
 	if keyboard_check(ord("A")) && x>xstart
 	{
-		direction = 0;
-		speed = -v;
 		xfin = x-192;
+		TweenEasyMove(x,y,xfin,y,0,room_speed/(global.modi*2), EaseInOutQuart);
 		pos-=1;
 	}
 	if keyboard_check(ord("S")) && !cd

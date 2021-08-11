@@ -7,15 +7,20 @@ with(other)
 	if escudo ==0
 	{
 		vida--;
+		if vida==0
+		{
+			audio_stop_all();
+			if !global.pvp && (global.point>global.hiscore) 
+			{
+				ini_open("score.ini");
+				ini_write_real("score","hiscore",global.point)
+			}
+			room_goto(rm_main);
+		}
 	}
 	else
 	{
 		escudo--;
-	}
-	if vida==0
-	{
-		audio_stop_all();
-		room_goto(rm_main);
 	}
 	
 }
