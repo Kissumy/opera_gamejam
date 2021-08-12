@@ -63,5 +63,11 @@ else
 }
 draw_sprite_stretched(a, z, 864,352,48,32);
 
+draw_text(864,400, string(obj_player2.c1));
+draw_text(864,432, string(obj_player2.c2));
+draw_text(864,464, string(obj_player2.c3));
+draw_text(864,496, string(obj_player2.xfin));
+draw_text(864,528, string(obj_player2.x));
+
 draw_sprite_stretched(spr_shield, obj_base1.escudo, obj_base1.x,obj_base1.y,64,64);
 draw_sprite_stretched(spr_shield, obj_base2.escudo, obj_base2.x,obj_base2.y,64,64);

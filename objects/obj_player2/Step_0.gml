@@ -43,19 +43,19 @@ if global.pvp
 }
 else
 {
-	
-	if x<xfin
+	if x<xfin && (auxi || x==xstart+192)
 	{
-		direction = 0;
-		speed = v;
+		auxi=false
+		TweenEasyMove(x,y,x+192,y,0,room_speed/(global.modi*2), EaseInOutQuart);
 	}
-	else if x>xfin
+	else if x>xfin && (auxi || x==xstart+192)
 	{
-		direction = 0;
-		speed = -v;
+		auxi=false
+		TweenEasyMove(x,y,x-192,y,0,room_speed/(global.modi*2), EaseInOutQuart);
 	}
-	else
+	else if x==xfin
 	{
+		auxi=true;
 		speed = 0;
 
 		if !((naves[pos][1]==1)||(naves[pos][0]==1)) && !cd
@@ -163,7 +163,32 @@ else
 			aux3=true;
 			c3=s3;
 		}
-	
+		q=0;
+		if c1==c2 && c1==c3
+		{
+			q=choose(1,2,3);
+		}
+		else if c1 == c2 && c1>c3 q=choose(1,2);
+		else if c1 == c3 && c1>c2 q=choose(1,3);
+		else if c3 == c2 && c2>c1 q=choose(2,3);
+		if q == 1
+		{
+			c1=10;
+			c2=0;
+			c3=0;
+		}
+		else if q==2
+		{
+			c1=0;
+			c2=10;
+			c3=0;
+		}
+		else if q==3
+		{
+			c1=0;
+			c2=0;
+			c3=10;
+		}
 		if c1>c2 && c1>c3
 		{
 			xfin=xstart;
