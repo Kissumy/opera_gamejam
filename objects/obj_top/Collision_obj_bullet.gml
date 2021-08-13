@@ -21,6 +21,6 @@ if ystart>416
 {	
 	if vida==2
 	{
-		image_index = 2;
+		sprite_index = spr_toph_1ship;
 	}
 }

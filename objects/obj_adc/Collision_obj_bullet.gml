@@ -21,27 +21,27 @@ if ystart>416
 {	
 	if vida==8
 	{
-		image_index = 3;
+		sprite_index = spr_adch5;
 	}
 	else if vida==7
 	{
-		image_index = 4;
+		sprite_index = spr_adch4;
 	}
 	else if vida==6
 	{
-		image_index = 5;
+		sprite_index = spr_adch3;
 	}
 	else if vida==5
 	{
-		image_index = 6;
+		sprite_index = spr_adch2;
 	}
 	else if vida==4
 	{
-		image_index = 7;
+		sprite_index = spr_adch1;
 	}
 	else if vida==3
 	{
-		image_index = 8;
+		sprite_index = spr_adch;
 	}
 }
 else

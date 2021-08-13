@@ -27,5 +27,5 @@ else
 	image_speed = 0;
 	image_index = 0;
 }
-TweenEasyMove(x,y,x,yfin,0,2*room_speed/global.modi, EaseLinear);
+TweenEasyMove(x,y,x,yfin,0,room_speed/(global.modi*4), EaseLinear);
 direction = 270;
