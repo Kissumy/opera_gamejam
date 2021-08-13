@@ -48,7 +48,7 @@ else
 {
 	if vida==3
 	{
-		image_index = 1;
+		sprite_index = spr_adc_shieldless;
 	}
 }
 
