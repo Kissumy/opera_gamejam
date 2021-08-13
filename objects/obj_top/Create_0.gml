@@ -1,9 +1,7 @@
 /// @description  configurar nave top
 
 //iniciar sprite
-sprite_index = spr_top;
-image_speed = 0;
-image_index = 0;
+
 
 
 
@@ -16,7 +14,9 @@ if ystart>416
 	
 	if (global.music) audio_play_sound(humanrangehit,10,0);
 	pos = obj_player2.pos;
-	image_index = 1;
+	sprite_index = spr_top;
+	image_speed = 0;
+	image_index = 0;
 }
 else
 {
