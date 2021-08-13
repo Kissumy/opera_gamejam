@@ -4,6 +4,6 @@
 
 if y==yfin and aux
 {
-	alarm[0] = room_speed*global.modi;
+	alarm[0] = 1;
 	aux=false;
 }

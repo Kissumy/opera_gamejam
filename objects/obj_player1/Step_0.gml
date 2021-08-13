@@ -39,3 +39,4 @@ if x==xfin
 	}
 }
 
+if global.point > 500 && auxx instance_create_layer(864,384,"Instances",cow);

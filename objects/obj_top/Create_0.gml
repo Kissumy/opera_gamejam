@@ -24,5 +24,5 @@ else
 	if (global.music) audio_play_sound(snd_top,10,0);
 	pos = obj_player1.pos;
 }
-TweenEasyMove(x,y,x,yfin,0,2*room_speed/global.modi, EaseInOutQuart);
+TweenEasyMove(x,y,x,yfin,0,2*room_speed/global.modi, EaseLinear);
 direction = 270;

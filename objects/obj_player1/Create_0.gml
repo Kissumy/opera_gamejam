@@ -15,6 +15,6 @@ i=0;
 
 cd=false;
 scd=false;
-
+auxx=true;
 naves=[[0,0],[0,0],[0,0]];
 pos=0;

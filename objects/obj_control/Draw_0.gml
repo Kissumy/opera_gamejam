@@ -31,7 +31,7 @@ draw_text(864,256, "NEXT:");
 if global.municion2[0] == obj_adc 
 {
 	a= spr_adc; 
-	z=3;
+	z=2;
 }
 else if global.municion2[0] == obj_top 
 {
@@ -63,5 +63,5 @@ else
 }
 draw_sprite_stretched(a, z, 864,352,48,32);
 
-draw_sprite_stretched(spr_shield, obj_base1.escudo, 32,obj_base1.y,64,64);
-draw_sprite_stretched(spr_shield, obj_base2.escudo, 32,obj_base2.y,64,64);
+draw_sprite_stretched(spr_shield, obj_base1.escudo, 64,obj_base1.y+8,64,64);
+draw_sprite_stretched(spr_shield, obj_base2.escudo, 64,obj_base2.y-8,64,64);
