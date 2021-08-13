@@ -26,3 +26,4 @@ if !global.pvp
 	alarm[0]=room_speed*1;
 }
 alarm[1]=room_speed*30;
+global.anim_vel=0.35;
