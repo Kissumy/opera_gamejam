@@ -12,7 +12,7 @@ if ystart>416
 	yfin=0;
 	if (global.music) audio_play_sound(humankamihit,10,0);
 	sprite_index = spr_kamikazeh;
-	image_speed = 0;
+	image_speed = global.anim_vel;
 	image_index = 0;
 }
 else

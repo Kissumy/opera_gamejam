@@ -88,6 +88,7 @@
     {"id":{"name":"SharedTweener","path":"scripts/SharedTweener/SharedTweener.yy",},"order":0,},
     {"id":{"name":"ext_DSList__","path":"scripts/ext_DSList__/ext_DSList__.yy",},"order":8,},
     {"id":{"name":"roundy__","path":"scripts/roundy__/roundy__.yy",},"order":26,},
+    {"id":{"name":"spr_adc_shieldless","path":"sprites/spr_adc_shieldless/spr_adc_shieldless.yy",},"order":19,},
     {"id":{"name":"__vspeed","path":"scripts/__vspeed/__vspeed.yy",},"order":8,},
     {"id":{"name":"TGMS_ExecuteEvent","path":"scripts/TGMS_ExecuteEvent/TGMS_ExecuteEvent.yy",},"order":3,},
     {"id":{"name":"__health","path":"scripts/__health/__health.yy",},"order":1,},
