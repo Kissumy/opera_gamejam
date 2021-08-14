@@ -1,29 +1,30 @@
 /// @description crear variables
 
-
-
-randomize();
-
-for (i=0;i<2;i++)
+if room == rm_pvp
 {
-	global.municion1[i]=choose(obj_adc,obj_kamikaze,obj_top);
-	global.municion2[i]=choose(obj_adc,obj_kamikaze,obj_top);
-}
+	randomize();
 
-if (global.music) audio_play_sound(snd_music,5,true);
-if !global.pvp 
-{
-	if file_exists("score.ini")
+	for (i=0;i<2;i++)
 	{
-		ini_open("score.ini");
-		global.hiscore = ini_read_real("score","hiscore",0);
-		ini_close();
+		global.municion1[i]=choose(obj_adc,obj_kamikaze,obj_top);
+		global.municion2[i]=choose(obj_adc,obj_kamikaze,obj_top);
 	}
-	else
+
+	if (global.music) audio_play_sound(snd_music,5,true);
+	if !global.pvp 
 	{
-		global.hiscore = 0;
+		if file_exists("score.ini")
+		{
+			ini_open("score.ini");
+			global.hiscore = ini_read_real("score","hiscore",0);
+			ini_close();
+		}
+		else
+		{
+			global.hiscore = 0;
+		}
+		alarm[0]=room_speed*1;
 	}
-	alarm[0]=room_speed*1;
+	alarm[1]=room_speed*30;
+	global.anim_vel=0.35;
 }
-alarm[1]=room_speed*30;
-global.anim_vel=0.35;

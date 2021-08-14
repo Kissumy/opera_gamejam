@@ -38,4 +38,4 @@ if x==xfin
 		alarm[1]=room_speed/global.modi;
 	}
 }
-if !global.pvp if global.point > 1 && auxx instance_create_layer(864,384,"Instances",cow);
+if !global.pvp if global.point >= 500 && auxx instance_create_layer(864,384,"Instances",cow);

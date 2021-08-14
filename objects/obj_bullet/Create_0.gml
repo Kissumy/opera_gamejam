@@ -10,7 +10,7 @@
 if ystart>540
 {
 	yfin=ystart-544;
-	image_index = spr_bulleth;
+	sprite_index = spr_bulleth;
 	image_speed = global.anim_vel;
 	image_index = 0;
 }

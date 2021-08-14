@@ -14,8 +14,9 @@ with(other)
 			{
 				ini_open("score.ini");
 				ini_write_real("score","hiscore",global.point)
+				global.hiscore=global.point;
 			}
-			room_goto(rm_main);
+			room_goto(rm_game_over);
 		}
 	}
 	else

@@ -53,8 +53,10 @@ else
 		auxi=false
 		TweenEasyMove(x,y,x-192,y,0,room_speed/(global.modi*2), EaseInOutQuart);
 	}
-	else if x==xfin
+	else if x==xfin && !scd
 	{
+		scd=true;
+		alarm[1]=room_speed*1.5/global.modi;
 		auxi=true;
 		speed = 0;
 

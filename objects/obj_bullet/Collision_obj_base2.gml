@@ -12,7 +12,7 @@ with(other)
 			if vida==0
 			{
 				audio_stop_all();
-				room_goto(rm_main);
+				room_goto(rm_game_over);
 			}
 		}
 	}
